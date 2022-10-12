@@ -117,5 +117,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-TWILIO_SID = 'AC0a4f87bb62c37294dae1e85be84ffb9f'
-TWILIO_AUTH_TOKEN = '31624141ef3a52161d5c8dd1d0bbcb9f'
+TWILIO_SID = 'ACb9b60800ed9b7c42b7a6effdac22b7d0'
+TWILIO_AUTH_TOKEN = '8f3e2a5ca0151cab877ffda4fd56dbed'
