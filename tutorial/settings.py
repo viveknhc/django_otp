@@ -105,6 +105,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+AUTH_USER_MODEL ='web.User'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
@@ -117,5 +119,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-TWILIO_SID = 'ACb9b60800ed9b7c42b7a6effdac22b7d0'
-TWILIO_AUTH_TOKEN = '8f3e2a5ca0151cab877ffda4fd56dbed'
+TWILIO_SID = 'ACb80999fdb3adb236ada4ee3700403ea2'
+TWILIO_AUTH_TOKEN = 'a5e6a5ef973d9e2c57c6b2c7e68272b3'

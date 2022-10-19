@@ -7,4 +7,6 @@ urlpatterns = [
     path('',views.index,name="index"),
     path('login',views.login,name="login"),
     path('registration',views.registration,name="registration"),
+    path('otp/<str:id>',views.otp,name="otp"),
+    
 ]
