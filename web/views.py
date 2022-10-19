@@ -25,7 +25,7 @@ def registration(request):
         user = User.objects.create(email = email, password = password,phone = phone)
         profile = Prfile.objects.create(user =user,auth_token = secret)
         print(profile.test_id)
-        return redirect(f"/login/{profile.test_id}")
+        return redirect(f"/otp/{profile.test_id}")
     return render(request,"web/registration.html")
 
 def otp(request,id):

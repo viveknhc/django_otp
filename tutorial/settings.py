@@ -1,7 +1,7 @@
 
 
 from pathlib import Path
-
+from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -119,5 +119,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-TWILIO_SID = 'ACb80999fdb3adb236ada4ee3700403ea2'
-TWILIO_AUTH_TOKEN = 'a5e6a5ef973d9e2c57c6b2c7e68272b3'
+
+
+TWILIO_ACCOUNT_SID = config("TWILIO_SID")
+TWILIO_AUTH_TOKEN = config("TWILIO_AUTH_TOKEN")
